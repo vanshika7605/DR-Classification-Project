@@ -26,6 +26,10 @@ This project provides an end-to-end deep learning pipeline and interactive web a
 
 The application utilizes state-of-the-art convolutional neural networks (**ResNet50** and **EfficientNet-B4**) to categorize images into one of five severity grades (0: No DR, 1: Mild, 2: Moderate, 3: Severe, 4: Proliferative). It features a robust Streamlit dashboard for real-time predictions, Grad-CAM explainability, and comprehensive model performance metrics.
 
+## 📄 Full Documentation
+Want to dive deeper into the methodology, dataset analysis, and training process? 
+**[👉 Click here to read the full Project Report (PDF)](docs/Project_Report.pdf)**
+
 ## ✨ Key Features
 * **Dual-Model Support:** Compares performance between PyTorch `timm` implementations of ResNet50 and EfficientNet-B4.
 * **Advanced Preprocessing:** Utilizes CLAHE (Contrast Limited Adaptive Histogram Equalization) applied specifically to the Green Channel to enhance the visibility of blood vessels and microaneurysms.

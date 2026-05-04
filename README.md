@@ -91,6 +91,3 @@ Scheduler: Cosine Annealing
 Explainability: pytorch-grad-cam library targeting the final convolutional blocks (model.layer4[-1] for ResNet).
 
 Evaluation: Quadratic Weighted Kappa (QWK) was heavily prioritized over raw accuracy to account for the ordinal nature of disease progression.
-
-⚠️ Disclaimer
-This application is designed for educational and research purposes only. It is not intended for use in clinical diagnosis or as a substitute for professional medical advice.

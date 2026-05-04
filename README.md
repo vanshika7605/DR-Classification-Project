@@ -48,6 +48,7 @@ Want to dive deeper into the methodology, dataset analysis, and training process
 *Note: ResNet50 was selected as the primary deployment model due to its marginally superior QWK and general accuracy on the test set.*
 
 ## 📁 Project Structure
+
 ```text
 DR_Classification_Project/
 ├── app.py                     # Main Streamlit application file
@@ -62,36 +63,42 @@ DR_Classification_Project/
     ├── preprocess.py          # CLAHE and image transformation logic
     ├── predict.py             # PyTorch inference, TTA, and thresholding logic
     └── gradCAM.py             # Grad-CAM heatmap generation
+```
 
-##🚀 Installation & Setup
-1. Clone the repository
-(If applicable, insert your git clone command here)
+## 🚀 Installation & Setup
 
-2. Create a virtual environment (Recommended)
+**1. Clone the repository**
+*(If applicable, insert your git clone command here)*
 
-Bash
+**2. Create a virtual environment (Recommended)**
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-3. Install dependencies
+```
 
-Bash
+**3. Install dependencies**
+```bash
 pip install -r requirements.txt
-4. Add the Model Weights
-Ensure your trained model weights file (resnet_best_final.pth) is placed in the root directory.
+```
 
-##💻 Running the Application
+**4. Add the Model Weights**
+Ensure your trained model weights file (`resnet_best_final.pth`) is placed in the root directory.
+
+## 💻 Running the Application
+
 To launch the interactive dashboard, run the following command in your terminal from the project root:
 
-Bash
+```bash
 streamlit run app.py
-The application will automatically open in your default web browser at http://localhost:8501.
+```
+The application will automatically open in your default web browser at `http://localhost:8501`.
 
-##🛠️ Technical Implementation Details
-Framework: PyTorch & timm
-
-Optimizer: AdamW
-
-Scheduler: Cosine Annealing
+## 🛠️ Technical Implementation Details
+* **Framework:** PyTorch & `timm`
+* **Optimizer:** AdamW
+* **Scheduler:** Cosine Annealing
+* **Explainability:** `pytorch-grad-cam` library targeting the final convolutional blocks (`model.layer4[-1]` for ResNet).
+* **Evaluation:** Quadratic Weighted Kappa (QWK) was heavily prioritized over raw accuracy to account for the ordinal nature of disease progression.
 
 Explainability: pytorch-grad-cam library targeting the final convolutional blocks (model.layer4[-1] for ResNet).
 

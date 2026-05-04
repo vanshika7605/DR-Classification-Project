@@ -62,7 +62,8 @@ DR_Classification_Project/
     ├── preprocess.py          # CLAHE and image transformation logic
     ├── predict.py             # PyTorch inference, TTA, and thresholding logic
     └── gradCAM.py             # Grad-CAM heatmap generation
-🚀 Installation & Setup
+
+##🚀 Installation & Setup
 1. Clone the repository
 (If applicable, insert your git clone command here)
 
@@ -78,14 +79,14 @@ pip install -r requirements.txt
 4. Add the Model Weights
 Ensure your trained model weights file (resnet_best_final.pth) is placed in the root directory.
 
-💻 Running the Application
+##💻 Running the Application
 To launch the interactive dashboard, run the following command in your terminal from the project root:
 
 Bash
 streamlit run app.py
 The application will automatically open in your default web browser at http://localhost:8501.
 
-🛠️ Technical Implementation Details
+##🛠️ Technical Implementation Details
 Framework: PyTorch & timm
 
 Optimizer: AdamW

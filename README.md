@@ -65,24 +65,7 @@ Matplotlib
 Scikit-learn
 Streamlit
 Project Structure
-DR_CLASSIFICATION_PROJECT/
-│
-├── app.py
-├── class_names.py
-├── README.md
-├── .gitignore
-│
-├── assets/
-│   ├── confusion matrix(ResNet).jpeg
-│   ├── confusion matrix(Effnet).jpeg
-│   ├── Final ResNetscore.jpeg
-│
-├── utils/
-│   ├── preprocess.py
-│   ├── predict.py
-│   └── gradCAM.py
-│
-└── resnet_best_final.pth
+
 Streamlit Deployment
 
 Run the application locally using:

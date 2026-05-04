@@ -62,7 +62,7 @@ DR_Classification_Project/
     ├── preprocess.py          # CLAHE and image transformation logic
     ├── predict.py             # PyTorch inference, TTA, and thresholding logic
     └── gradCAM.py             # Grad-CAM heatmap generation
-text```
+
 ##🚀 Installation & Setup
 1. Clone the repository
 (If applicable, insert your git clone command here)

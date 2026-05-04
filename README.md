@@ -100,13 +100,12 @@ DR_CLASSIFICATION_PROJECT/
 │   └── gradCAM.py
 │
 └── resnet_best_final.pth
+
 Streamlit Deployment
-
 Run the application locally using:
-
 streamlit run app.py
-Grad-CAM Explainability
 
+Grad-CAM Explainability
 Grad-CAM is used to visualize lesion-focused retinal regions influencing model predictions, improving transparency and clinical interpretability.
 
 Future Scope

@@ -28,7 +28,7 @@ The application utilizes state-of-the-art convolutional neural networks (**ResNe
 
 ## 📄 Full Documentation
 Want to dive deeper into the methodology, dataset analysis, and training process? 
-**[👉 Click here to read the full Project Report (PDF)](docs/Project_Report.pdf)**
+**[👉 Click here to read the full Project Report (PDF)](Project_Report.pdf)**
 
 ## ✨ Key Features
 * **Dual-Model Support:** Compares performance between PyTorch `timm` implementations of ResNet50 and EfficientNet-B4.

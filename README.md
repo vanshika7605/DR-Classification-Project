@@ -47,7 +47,7 @@ Grad-CAM Heatmap Visualization
 5. Deployment
 Streamlit-based Web Application
 Results
-Model	Accuracy	QWK Score
+
 | Model           | Accuracy | QWK Score |
 | --------------- | -------- | --------- |
 | ResNet50        | 81.09%   | 0.9116    |
@@ -79,6 +79,7 @@ Scikit-learn
 Streamlit
 
 Project Structure
+
 DR_CLASSIFICATION_PROJECT/
 │
 ├── app.py
